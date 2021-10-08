@@ -4,6 +4,7 @@ import main.Calculadora;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+//teste no novo
 class CalculadoraTest {
     @Test
     void seNaoInformarNumeroDeveRetornarZero() {
