@@ -4,7 +4,7 @@ import main.Calculadora;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-//teste no novo
+
 class CalculadoraTest {
     @Test
     void seNaoInformarNumeroDeveRetornarZero() {
@@ -19,5 +19,7 @@ class CalculadoraTest {
         double soma = calculadora.soma(5, 5);
         Assertions.assertEquals(10,soma);
     }
+
+
 
 }

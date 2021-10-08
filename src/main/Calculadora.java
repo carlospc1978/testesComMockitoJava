@@ -13,7 +13,18 @@ public class Calculadora {
         return soma;
     }
 
-    public String nome(String nome){
-        return nome;
+    public double subtrair (int a, int b){
+
+        int resultado=0;
+
+        if(a<0){
+            return 0;
+        }
+
+        if(b<0){
+            return 0;
+        }
+
+         return a-b;
     }
 }
