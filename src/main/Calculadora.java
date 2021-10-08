@@ -1,5 +1,7 @@
 package main;
 
+import java.util.Arrays;
+
 public class Calculadora {
     public double soma (double... numeros){
         double soma=0;
@@ -27,4 +29,10 @@ public class Calculadora {
 
          return a-b;
     }
+
+    public String nomes (String nomes){
+        return nomes;
+    }
+
+
 }
